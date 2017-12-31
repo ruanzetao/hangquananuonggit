@@ -8,38 +8,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <!-- Bootstrap CSS-->
-    <link href="public/assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome-->
-    <link rel="stylesheet" href="public/assets/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/font-awesome/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
     <!-- IE 9-->
     <!-- Vendors-->
-    <link rel="stylesheet" href="public/assets/vendors/flexslider/flexslider.min.css">
-    <link rel="stylesheet" href="public/assets/vendors/swipebox/css/swipebox.min.css">
-    <link rel="stylesheet" href="public/assets/vendors/slick/slick.min.css">
-    <link rel="stylesheet" href="public/assets/vendors/slick/slick-theme.min.css">
-    <link rel="stylesheet" href="public/assets/vendors/animate.min.css">
-    <link rel="stylesheet" href="public/assets/vendors/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="public/assets/vendors/pageloading/css/component.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/flexslider/flexslider.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/swipebox/css/swipebox.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/slick/slick.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/animate.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="../public/assets/vendors/pageloading/css/component.min.css">
     <!-- Font-icon-->
-    <link rel="stylesheet" href="public/assets/fonts/font-icon/style.css">
+    <link rel="stylesheet" href="../public/assets/fonts/font-icon/style.css">
     <!-- Style-->
-    <link rel="stylesheet" type="text/css" href="public/assets/css/layout.css">
-    <link rel="stylesheet" type="text/css" href="public/assets/css/elements.css">
-    <link rel="stylesheet" type="text/css" href="public/assets/css/extra.css">
-    <link rel="stylesheet" type="text/css" href="public/assets/css/widget.css">
-    <link id="colorpattern" rel="stylesheet" type="text/css" href="public/assets/css/color/colordefault.css">
-    <link rel="stylesheet" type="text/css" href="public/assets/css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="public/assets/css/live-settings.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/elements.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/extra.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/widget.css">
+    <link id="colorpattern" rel="stylesheet" type="text/css" href="../public/assets/css/color/colordefault.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/live-settings.css">
     <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
     <!-- Script Loading Page-->
-    <script src="public/assets/vendors/html5shiv.js"></script>
-    <script src="public/assets/vendors/respond.min.js"></script>
-    <script src="public/assets/vendors/pageloading/js/snap.svg-min.js"></script>
-    <script src="public/assets/vendors/pageloading/sidebartransition/js/modernizr.custom.js"></script>
+    <script src="../public/assets/vendors/html5shiv.js"></script>
+    <script src="../public/assets/vendors/respond.min.js"></script>
+    <script src="../public/assets/vendors/pageloading/js/snap.svg-min.js"></script>
+    <script src="../public/assets/vendors/pageloading/sidebartransition/js/modernizr.custom.js"></script>
   </head>
   <body>
     <div id="pagewrap" class="pagewrap">
@@ -78,8 +78,8 @@
             <div class="container">
               <div class="open-offcanvas">&#9776;</div>
               
-              <div class="header-logo"><a href="index.html" class="logo logo-static"><img src="public/assets/images/logo-white.png" alt="fooday" class="logo-img"></a><a href="index.html" class="logo logo-fixed"><img src="public/assets/images/logo.png" alt="fooday" class="logo-img"></a></div>
-              <script src="public/assets/vendors/jquery-1.10.2.min.js"></script>
+              <div class="header-logo"><a href="index.html" class="logo logo-static"><img src="../public/assets/images/logo-white.png" alt="fooday" class="logo-img"></a><a href="index.html" class="logo logo-fixed"><img src="../public/assets/images/logo.png" alt="fooday" class="logo-img"></a></div>
+              <script src="../public/assets/vendors/jquery-1.10.2.min.js"></script>
               <script>
               $(function() {
                 var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
@@ -109,10 +109,10 @@
         </header>
         <div class="page-container">
           <div class="top-header top-bg-parallax">
-            <div data-parallax="scroll" data-image-src="public/assets/images/slider/slider2-bg1.jpg" class="slides parallax-window">
+            <div data-parallax="scroll" data-image-src="../public/assets/images/slider/slider2-bg1.jpg" class="slides parallax-window">
               <div class="slide-content slide-layout-02">
                 <div class="container">
-                  <div class="slide-content-inner"><img src="public/assets/images/slider/slider2-icon.png" data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="500" alt="fooday" class="slide-icon img img-responsive animated">
+                  <div class="slide-content-inner"><img src="../public/assets/images/slider/slider2-icon.png" data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="500" alt="fooday" class="slide-icon img img-responsive animated">
                     <h3 data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="1000" class="slide-title animated">FOODAY RESTAURANT</h3>
                     <p data-ani-in="fadeInUp" data-ani-out="fadeOutDown" data-ani-delay="1500" class="slide-sub-title animated"><span class="line-before"></span><span class="line-after"></span><span class="text"><span>Tasty</span><span>Delicious</span><span>Savoury</span></span></p>
                   </div>
@@ -124,7 +124,7 @@
             <section class="about-us-session padding-top-100 padding-bottom-100">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-6 colsm-12"><img src="public/assets/images/pages/home1-about.jpg" alt="" class="img img-responsive wow zoomIn"></div>
+                  <div class="col-md-6 colsm-12"><img src="../public/assets/images/pages/home1-about.jpg" alt="" class="img img-responsive wow zoomIn"></div>
                   <div class="col-md-6 col-sm-12">
                     <div class="swin-sc swin-sc-title style-4 margin-bottom-20 margin-top-50">
                       <p class="top-title"><span>Giới thiệu</span></p>
@@ -132,7 +132,7 @@
                     </div>
                     <p class="des font-bold text-center">WE HAVE THE GLORY BEGINING IN RESTAURANT BUSINESS</p>
                     <p class="des margin-bottom-20 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ullam laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <div class="swin-btn-wrap center"><a href="#" class="swin-btn center form-submit btn-transparent"> <span>	About Us</span></a></div>
+                    <div class="swin-btn-wrap center"><a href="#" class="swin-btn center form-submit btn-transparent"> <span> About Us</span></a></div>
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@
                         <div class="col-md-12">
                           <div data-height="200" class="products nav-slider">
                             <div class="item product-01">
-                              <div class="item-left"><img src="public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                              <div class="item-left"><img src="../public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
                                 <div class="content-wrapper"><a href="chi-tiet-mon-an.html" class="title">The Cracker Barrel's Country Boy Breakfast</a>
                                   <div class="dot">...................</div>
                                   <div class="des">Nguyên liệu: 3 quả dưa chuột, 3 quả cà chua, 1/2 quả dứa, xà lách xoăn, hành tây, tỏi, đường, dấm, ớt.</div>
@@ -159,7 +159,7 @@
                               <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
                             </div>
                             <div class="item product-01">
-                              <div class="item-left"><img src="public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
+                              <div class="item-left"><img src="../public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
                                 <div class="content-wrapper"><a href="chi-tiet-mon-an.html" class="title">Uncle Herschel's Favorite </a>
                                   <div class="dot">...................</div>
                                   <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
@@ -168,7 +168,7 @@
                               <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
                             </div>
                             <div class="item product-01">
-                              <div class="item-left"><img src="public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
+                              <div class="item-left"><img src="../public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
                                 <div class="content-wrapper"><a href="chi-tiet-mon-an.html" class="title">Grandpa's Country Fried Breakfast </a>
                                   <div class="dot">...................</div>
                                   <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
@@ -177,7 +177,7 @@
                               <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
                             </div>
                             <div class="item product-01">
-                              <div class="item-left"><img src="public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
+                              <div class="item-left"><img src="../public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
                                 <div class="content-wrapper"><a href="chi-tiet-mon-an.html" class="title">Chinese Chicken Bread Spicy Soup</a>
                                   <div class="dot">...................</div>
                                   <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
@@ -186,7 +186,7 @@
                               <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
                             </div>
                             <div class="item product-01">
-                              <div class="item-left"><img src="public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
+                              <div class="item-left"><img src="../public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
                                 <div class="content-wrapper"><a href="chi-tiet-mon-an.html" class="title">Uncle Herschel's Favorite </a>
                                   <div class="dot"> ...................</div>
                                   <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
@@ -195,7 +195,7 @@
                               <div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
                             </div>
                             <div class="item product-01">
-                              <div class="item-left"><img src="public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                              <div class="item-left"><img src="../public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
                                 <div class="content-wrapper"><a class="title">The Cracker Barrel's Country Boy Breakfast</a>
                                   <div class="dot">...................</div>
                                   <div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
@@ -222,7 +222,7 @@
                     <div class="row slick-padding">
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
                             <div class="group-btn"><a href="chi-tiet-mon-an.html" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -236,7 +236,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>5.0</span></div>
                             <div class="group-btn"><a href="chi-tiet-mon-an.html" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -250,7 +250,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>20.0</span></div>
                             <div class="group-btn"><a href="chi-tiet-mon-an.html" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -264,7 +264,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -281,7 +281,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>15.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -298,7 +298,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -312,7 +312,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2k.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2k.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -326,7 +326,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2l.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2l.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>15.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -340,7 +340,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2n.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2n.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -356,7 +356,7 @@
                     <div class="row slick-padding">
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -370,7 +370,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>15.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -384,7 +384,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -403,7 +403,7 @@
                     <div class="row slick-padding">
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -417,7 +417,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>5.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -431,7 +431,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>20.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -447,7 +447,7 @@
                     <div class="row slick-padding">
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -464,7 +464,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>15.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -481,7 +481,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2a.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -498,7 +498,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2b.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>5.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -515,7 +515,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2c.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>20.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -532,7 +532,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -551,7 +551,7 @@
                     <div class="row slick-padding">
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2e.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -568,7 +568,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2f.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>15.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -585,7 +585,7 @@
                       </div>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-item item swin-transition">
-                          <div class="block-img"><img src="public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
+                          <div class="block-img"><img src="../public/assets/images/product/product-2d.jpg" alt="" class="img img-responsive">
                             <div class="block-circle price-wrapper"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
                             <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                           </div>
@@ -627,7 +627,7 @@
                   <div class="ft-widget-area">
                     <div class="ft-area1">
                       <div class="swin-wget swin-wget-about">
-                        <div class="clearfix"><a class="wget-logo"><img src="public/assets/images/logo-ft.png" alt="" class="img img-responsive"></a>
+                        <div class="clearfix"><a class="wget-logo"><img src="../public/assets/images/logo-ft.png" alt="" class="img img-responsive"></a>
                           <ul class="socials socials-about list-unstyled list-inline">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -834,33 +834,33 @@
       
     </div>
     <!-- jQuery-->
-    <script src="public/assets/vendors/jquery-1.10.2.min.js"></script>
+    <script src="../public/assets/vendors/jquery-1.10.2.min.js"></script>
     <!-- Bootstrap JavaScript-->
-    <script src="public/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../public/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
     <!-- Vendors-->
-    <script src="public/assets/vendors/flexslider/jquery.flexslider-min.js"></script>
-    <script src="public/assets/vendors/swipebox/js/jquery.swipebox.min.js"></script>
-    <script src="public/assets/vendors/slick/slick.min.js"></script>
-    <script src="public/assets/vendors/isotope/isotope.pkgd.min.js"></script>
-    <script src="public/assets/vendors/jquery-countTo/jquery.countTo.min.js"></script>
-    <script src="public/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="public/assets/vendors/parallax/parallax.min.js"></script>
-    <script src="public/assets/vendors/gmaps/gmaps.min.js"></script>
-    <script src="public/assets/vendors/audiojs/audio.min.js"></script>
-    <script src="public/assets/vendors/vide/jquery.vide.min.js"></script>
-    <script src="public/assets/vendors/pageloading/js/svgLoader.min.js"></script>
-    <script src="public/assets/vendors/pageloading/js/classie.min.js"></script>
-    <script src="public/assets/vendors/pageloading/sidebartransition/js/sidebarEffects.min.js"></script>
-    <script src="public/assets/vendors/nicescroll/jquery.nicescroll.min.js"></script>
-    <script src="public/assets/vendors/wowjs/wow.min.js"></script>
-    <script src="public/assets/vendors/skrollr.min.js"></script>
-    <script src="public/assets/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-    <script src="public/assets/vendors/jquery-cookie/js.cookie.js"></script>
+    <script src="../public/assets/vendors/flexslider/jquery.flexslider-min.js"></script>
+    <script src="../public/assets/vendors/swipebox/js/jquery.swipebox.min.js"></script>
+    <script src="../public/assets/vendors/slick/slick.min.js"></script>
+    <script src="../public/assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="../public/assets/vendors/jquery-countTo/jquery.countTo.min.js"></script>
+    <script src="../public/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="../public/assets/vendors/parallax/parallax.min.js"></script>
+    <script src="../public/assets/vendors/gmaps/gmaps.min.js"></script>
+    <script src="../public/assets/vendors/audiojs/audio.min.js"></script>
+    <script src="../public/assets/vendors/vide/jquery.vide.min.js"></script>
+    <script src="../public/assets/vendors/pageloading/js/svgLoader.min.js"></script>
+    <script src="../public/assets/vendors/pageloading/js/classie.min.js"></script>
+    <script src="../public/assets/vendors/pageloading/sidebartransition/js/sidebarEffects.min.js"></script>
+    <script src="../public/assets/vendors/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="../public/assets/vendors/wowjs/wow.min.js"></script>
+    <script src="../public/assets/vendors/skrollr.min.js"></script>
+    <script src="../public/assets/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="../public/assets/vendors/jquery-cookie/js.cookie.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
     <!-- Own script-->
-    <script src="public/assets/js/layout.js"></script>
-    <script src="public/assets/js/elements.js"></script>
-    <script src="public/assets/js/widget.js"></script>
+    <script src="../public/assets/js/layout.js"></script>
+    <script src="../public/assets/js/elements.js"></script>
+    <script src="../public/assets/js/widget.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
